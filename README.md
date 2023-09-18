@@ -4,7 +4,7 @@
 
 ![](./image/figure-frame.png)
 
-<p align="center">图 x CANable 通讯示意图</p>
+<p align="center">图 1 CANable 通讯示意图</p>
 
 ## 简介
 
@@ -299,44 +299,45 @@ void led_process(void)
 
 ### 运行  cangaroo.exe
 
-进入解压后的文件夹，鼠标左键双击 cangaroo.exe 文件，打开后主界面如图 x 所示：
+进入解压后的文件夹，鼠标左键双击 cangaroo.exe 文件，打开后主界面如图 2 所示：
 
 ![](./image/figure-cangaroo.png)
 
-<p align="center">图 x</p>
+<p align="center">图 2</p>
+
 ### 添加设备
 
 
-如下图 x 所示，点击 **Measurem -> Star Measurement** 选项，进入添加设备页面
+如下图 2 所示，点击 **Measurem -> Star Measurement** 选项，进入添加设备页面
 
 ![](./image/figure-add-device.png)
 
-<p align="center">图 x</p>
+<p align="center">图 3</p>
 
 
 点击 **Refresh** 按钮后，便可扫描出对应端口号的设备，点击对应的 **COM** 号，选择需要的比特率并点击 **OK** 按钮。
 
 ![](./image/figure-find-device.png)
 
-<p align="center">图 x</p>
+<p align="center">图 4</p>
 
 
 ### 发送 CAN 帧
 
-点击 **OK** 按钮后回到主界面，可看到如图 x 右下方的 Transmit View 窗口，如下图x所示，修改 CAN ID 为 0x`666,` 数据长度(DLC)为 `8`， 数据为：`12 34 56 78 9A BC DE FF` 后，点击 **Send** 即可发送。若点击 **Send Repeat** 则将以 1000ms 的周期循环发送当前数据帧。
+点击 **OK** 按钮后回到主界面，可看到如图 5 右下方的 Transmit View 窗口，如下图 5 所示，修改 CAN ID 为 0x`666,` 数据长度(DLC)为 `8`， 数据为：`12 34 56 78 9A BC DE FF` 后，点击 **Send** 即可发送。若点击 **Send Repeat** 则将以 1000ms 的周期循环发送当前数据帧。
 
 ![](./image/figure-send-frame.png)
 
-<p align="center">图 x</p>
+<p align="center">图 5</p>
 
 
 ### 接收 CAN 帧
 
-在添加设备完成后即可进入 CAN 总线监听状态，当监听到有效 CAN 帧后，便会在按下图x所示进行显示。
+在添加设备完成后即可进入 CAN 总线监听状态，当监听到有效 CAN 帧后，便会在按下图 6 所示进行显示。
 
 ![](./image/figure-receive-frame.png)
 
-<p align="center">图 x</p>
+<p align="center">图 6</p>
 
 
 ## 结语
