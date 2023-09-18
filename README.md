@@ -308,7 +308,7 @@ void led_process(void)
 ### 添加设备
 
 
-如下图 2 所示，点击 **Measurem -> Star Measurement** 选项，进入添加设备页面
+如下图 3 所示，点击 **Measurem -> Star Measurement** 选项，进入添加设备页面
 
 ![](./image/figure-add-device.png)
 
